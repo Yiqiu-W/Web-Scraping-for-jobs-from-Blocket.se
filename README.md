@@ -1,6 +1,6 @@
 #### Web-Scraping-for-jobs-from-Blocket.se
 
-##### An assignment of DSSS course of Computational Social Science in Linköping University, Sweden
+##### An assignment of my DSSS course from university
 #
 ##### The code is used to search for Data & IT, developer, Heltid"(full-time) jobs on "https://jobb.blocket.se/" A total of 300 results 20 pages * 15 posts/page with job(post) title, company, location, release_date, blocket_link, home_page, days_left_spe(cific), time(plenty or scarce), lat and long for location on maps.
 #
