@@ -1,6 +1,7 @@
 #### Web-Scraping-for-jobs-from-Blocket.se
 
-##### An assignment of my DSSS course from university
+##### An assignment from university
+[Yiqiu Wang DSSS first assignment.pdf](https://github.com/Yiqiu-W/Web-Scraping-for-jobs-from-Blocket.se/files/14732008/Yiqiu.Wang.DSSS.first.assignment.pdf)
 #
 ##### The code is used to search for Data & IT, developer, Heltid"(full-time) jobs on "https://jobb.blocket.se/" A total of 300 results 20 pages * 15 posts/page with job(post) title, company, location, release_date, blocket_link, home_page, days_left_spe(cific), time(plenty or scarce), lat and long for location on maps.
 #
