@@ -100,13 +100,13 @@ df_1$days_left <- gsub(pattern = "sista dagen", replacement = "0", x = df_1$days
 df_1$days_left <- gsub("[^0-9]+", "",df_1$days_left)
 
 # save the data frame
-setwd("C:/Users/wangy/Documents/DSSS lab/assignment1")
+setwd("yourwd")
 write.csv(df_1,"blocket_20_pages.csv")
 
 
 # we have a total of 300 jobs
 # set up a new working directory so that files could be stored in the new file holder
-setwd("C:/Users/wangy/Documents/DSSS lab/assignment1/detail pages")
+setwd("yourwd")
 # use the links in df_1 to go to the detailed information page of each job 
 links <- df_1$blocket_link
 # create another empty lists
@@ -145,7 +145,7 @@ df_2$days_left_spe <- gsub("^(.*)(2023)(.*)","\\3",df_2$days_left_spe)
 df_2$days_left_spe <- gsub("[^0-9]+", "",df_2$days_left_spe)
 
 # save df_2
-setwd("C:/Users/wangy/Documents/DSSS lab/assignment1")
+setwd("yourwd")
 write.csv(df_2,"detail_page_300_jobs.csv")
 # save the final data frame for further use
 df <- cbind(df_1,df_2)
@@ -154,7 +154,7 @@ write.csv(df,"final_df.csv")
 ########################################
 
 # load our saved final_df
-df <- read.csv("C:/Users/wangy/Documents/DSSS lab/assignment1/final_df.csv")
+df <- read.csv("yourwd/final_df.csv")
 
 # But we have to do more adjustments to df
 library(tidyverse)
@@ -259,7 +259,7 @@ ggplot(data=df) +
        caption = "Data source: https://jobb.blocket.se/(data collected time 2023.4.24 17:00)")
 
 # save the real final data frame
-setwd("C:/Users/wangy/Documents/DSSS lab/assignment1")
+setwd("yourwd")
 write.csv(df,"final_df_true.csv")
 
 # save an excel version of the data frame
